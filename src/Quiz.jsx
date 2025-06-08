@@ -55,6 +55,8 @@ if(finish) {
           onClick={()=>{handleSelect('option4')}}>{data[index].Option4}</li>
    </ul>
 
+
+
    <button onClick={handleNext} disabled ={!option}>Next</button>
    <h5>Question {index+1} of{data.length}</h5>
    </div>
