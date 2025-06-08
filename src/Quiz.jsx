@@ -52,10 +52,7 @@ if(finish) {
           onClick={()=>{handleSelect('option3')}}>{data[index].Option3}</li>
          
           <li className= {option === 'option4'? 'selected':''}
-          onClick={()=>{handleSelect('option4')}}>{data[index].Option3}</li>
-          
-          <li className= {option === 'option5'? 'selected':''}
-           onClick={()=>{handleSelect('option5')}}>{data[index].Option4}</li>
+          onClick={()=>{handleSelect('option4')}}>{data[index].Option4}</li>
    </ul>
 
    <button onClick={handleNext} disabled ={!option}>Next</button>
